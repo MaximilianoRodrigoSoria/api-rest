@@ -1,0 +1,9 @@
+{
+  "request": {
+    "url": "/percentage_increase"
+  },
+  "response": {
+    "status": 200,
+    "body": "{ \"value\": 30 }"
+  }
+}
