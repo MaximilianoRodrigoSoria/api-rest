@@ -1,4 +1,4 @@
-CREATE TABLE historial_llamadas (
+CREATE TABLE historial (
                                id SERIAL PRIMARY KEY,
                                endpoint VARCHAR(255) NOT NULL,
                                request TEXT NOT NULL,

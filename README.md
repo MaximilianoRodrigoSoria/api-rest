@@ -5,7 +5,7 @@ Este es un ejemplo de una api rest
 
 ## Wiremock endpoint
 
-> http://localhost:9001/percentage_increase
+> http://localhost:9001/percentage
 
 
 # Swagger
