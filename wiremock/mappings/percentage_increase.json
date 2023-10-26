@@ -1,6 +1,6 @@
 {
   "request": {
-    "url": "/percentage_increase"
+    "url": "/percentage"
   },
   "response": {
     "status": 200,

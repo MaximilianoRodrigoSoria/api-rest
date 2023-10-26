@@ -17,6 +17,7 @@ services:
     networks:
           - tempo-challenger
   wiremock:
+    container_name: wiremock
     image: rodolpheche/wiremock
     ports:
       - "9001:8080"
@@ -27,6 +28,7 @@ services:
     networks:
       - tempo-challenger
   redis:
+    container_name: redis
     image: redis
     ports:
       - "6379:6379"
