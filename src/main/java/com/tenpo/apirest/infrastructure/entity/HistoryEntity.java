@@ -10,7 +10,7 @@ import java.time.LocalDateTime;
 @Data
 @Table(name = "history")
 @NoArgsConstructor
-public class HistorialEntity {
+public class HistoryEntity {
 
         @Id
         @GeneratedValue(strategy = GenerationType.IDENTITY)

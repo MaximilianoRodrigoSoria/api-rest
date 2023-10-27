@@ -10,4 +10,4 @@ Este es un ejemplo de una api rest
 
 # Swagger
 
-> http://localhost:8080/api-rest/health
+> http://localhost:8080/api-rest/swagger-ui.html
