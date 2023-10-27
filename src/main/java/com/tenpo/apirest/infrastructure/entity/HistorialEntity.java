@@ -2,12 +2,14 @@ package com.tenpo.apirest.infrastructure.entity;
 
 import jakarta.persistence.*;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
 import java.time.LocalDateTime;
 
 @Entity
 @Data
-@Table(name = "historial")
+@Table(name = "history")
+@NoArgsConstructor
 public class HistorialEntity {
 
         @Id
