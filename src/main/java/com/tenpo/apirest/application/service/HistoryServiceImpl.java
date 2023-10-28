@@ -24,13 +24,12 @@ public class HistoryServiceImpl implements HistoryService {
             case LOWER -> pageRequest= PageRequest.of(page,size, Sort.by(FIELD_BY_SHORT).ascending());
             case UPPER -> pageRequest = PageRequest.of(page,size,Sort.by(FIELD_BY_SHORT).descending());
         }
-
         return repository.findAll(pageRequest).map(mapper::toModel);
     }
 
     @Override
     public History created(History request) {
-        return null;
+        return mapper.toModel(repository.save(mapper.toEntity(request)));
     }
 
     @Override
