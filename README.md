@@ -1,5 +1,61 @@
-# api-rest
-Este es un ejemplo de una api rest
+
+# API REST de Spring Boot
+
+Esta es una API REST desarrollada en Spring Boot con Java 17, que proporciona las siguientes funcionalidades:
+
+## Funcionalidades
+
+1. **Suma con Porcentaje**
+    - La API tiene un servicio que recibe dos números, los suma y les aplica un porcentaje adquirido de un servicio externo.
+    - El servicio externo puede ser un mock y devuelve el porcentaje a sumar.
+    - Si el servicio externo falla, se utiliza el último valor retornado. Si no hay valor, se devuelve un error en la API.
+
+2. **Historial de Llamadas**
+    - La API registra un historial de todos los llamados a los endpoints, incluyendo las respuestas en caso de éxito.
+    - El historial se almacena en una base de datos PostgreSQL.
+    - El guardado del historial no afecta el tiempo de respuesta del servicio principal.
+
+3. **Límite de RPM**
+    - La API admite un máximo de 3 solicitudes por minuto (RPM). Si se supera este umbral, se devuelve un error HTTP con un mensaje adecuado.
+
+4. **Errores HTTP**
+    - La API incluye mensajes y descripciones adecuadas para la serie de errores 4XX.
+
+5. **Pruebas Unitarias**
+    - Se han incluido pruebas unitarias para verificar el funcionamiento de la API.
+
+6. **Docker Container**
+    - La aplicación se puede desplegar en un contenedor Docker. Tanto la API como la base de datos PostgreSQL se ejecutan en contenedores Docker. Se recomienda el uso de Docker Compose para gestionarlos.
+
+7. **Documentación**
+    - Se proporciona un archivo de colección de Postman y una documentación Swagger para probar la API.
+
+## Repositorio y Despliegue
+
+El código fuente de esta API está disponible en el siguiente repositorio público:
+
+
+[Repositorio en GitHub](https://github.com/MaximilianoRodrigoSoria/api-rest)
+
+Para desplegar la aplicación, sigue las siguientes instrucciones:
+
+1. Clona el repositorio en tu entorno de desarrollo.
+
+2. Asegúrate de tener Docker y Docker Compose instalados en tu sistema.
+
+3. Ejecuta el siguiente comando en la raíz del proyecto para iniciar la aplicación y la base de datos:
+
+   ```bash
+   docker-compose up
+   ```
+
+4. La API estará disponible en `http://localhost:8080/api-rest/swagger-ui.html`. Accede a la documentación de la API a través de la ruta correspondiente (Postman o Swagger) para probarla.
+
+Recuerda que esta aplicación está diseñada para funcionar en un entorno distribuido, por lo que puede haber varias réplicas del servicio en funcionamiento en paralelo.
+
+¡Disfruta probando la API y explorando su funcionalidad!
+
+---
 
 
 
