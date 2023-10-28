@@ -1,7 +1,7 @@
 version: '3.8'
 
 services:
-  db-sql:
+  postgres15:
     image: postgres:15.2
     container_name: postgres15
     restart: always
@@ -15,7 +15,7 @@ services:
     ports:
       - "5432:5432"
     networks:
-          - tempo-challenger
+      - tempo-challenger
   wiremock:
     container_name: wiremock
     image: rodolpheche/wiremock
@@ -27,11 +27,25 @@ services:
     command: --verbose
     networks:
       - tempo-challenger
+
   redis:
     container_name: redis
     image: redis
     ports:
       - "6379:6379"
+    networks:
+      - tempo-challenger
+
+  api-rest:
+    container_name: api-rest
+    build:
+      context: .
+    ports:
+      - "8080:8080"
+    depends_on:
+      - postgres15
+      - redis
+      - wiremock
     networks:
       - tempo-challenger
 networks:

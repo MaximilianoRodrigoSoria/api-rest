@@ -43,7 +43,21 @@ Para desplegar la aplicación, sigue las siguientes instrucciones:
 
 2. Asegúrate de tener Docker y Docker Compose instalados en tu sistema.
 
-3. Ejecuta el siguiente comando en la raíz del proyecto para iniciar la aplicación y la base de datos:
+3. Para armar la imagen de la api-rest
+
+ ```bash
+   docker build -t api-rest:001 .
+   ```
+4. Para correr la imagen podemos usar
+
+ ```bash
+   docker run -p 8080:8080 --name api-rest api-rest
+
+   ```
+![Docker Compose](/docs/img/docker-compose.png)
+
+
+5. Ejecuta el siguiente comando en la raíz del proyecto para iniciar la aplicación y la base de datos:
 
    ```bash
    docker-compose up
