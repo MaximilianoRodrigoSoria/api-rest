@@ -10,5 +10,5 @@ public interface AbstractService<R,ID> {
     R update(R request, ID id);
     void delete(ID id);
 
-    String FIELD_BY_SHORT = "ANY";
+    String FIELD_BY_SHORT = "id";
 }
