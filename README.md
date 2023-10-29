@@ -3,7 +3,7 @@
 
 Esta es una API REST desarrollada en Spring Boot con Java 17, que proporciona las siguientes funcionalidades:
 
-## Funcionalidades
+## 🛠️ Funcionalidades
 
 1. **Suma con Porcentaje**
     - La API tiene un servicio que recibe dos números, los suma y les aplica un porcentaje adquirido de un servicio externo.
@@ -30,7 +30,7 @@ Esta es una API REST desarrollada en Spring Boot con Java 17, que proporciona la
 7. **Documentación**
     - Se proporciona un archivo de colección de Postman y una documentación Swagger para probar la API.
 
-## Repositorio y Despliegue
+## 📦 Repositorio y Despliegue
 
 El código fuente de esta API está disponible en el siguiente repositorio público:
 
@@ -71,13 +71,27 @@ Recuerda que esta aplicación está diseñada para funcionar en un entorno distr
 
 ---
 
+## 🔗 Links utiles
 
+### Wiremock
 
-## Wiremock endpoint
+WireMock es una biblioteca de simulación de servicios web (stubbing) que se utiliza comúnmente en pruebas unitarias e integración de software. Permite a los desarrolladores simular servicios HTTP/HTTPS, como API REST, para crear entornos de prueba controlados y predecibles
+
+En este caso esta mockeado el serviio de percentage
+
+#### URL
 
 > http://localhost:9001/percentage
 
+#### Response
 
-# Swagger
+> { "value": 30 }
+
+## Swagger
+
+
+Swagger es un conjunto de herramientas y especificaciones que se utiliza para diseñar, crear y documentar APIs de manera sencilla y efectiva. Su objetivo principal es facilitar la colaboración entre equipos de desarrollo y documentación al proporcionar una forma estandarizada de describir y exponer las capacidades de una API.
+
+#### URL
 
 > http://localhost:8080/api-rest/swagger-ui.html
