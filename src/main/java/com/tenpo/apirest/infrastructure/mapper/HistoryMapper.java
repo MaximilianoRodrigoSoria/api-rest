@@ -7,7 +7,6 @@ import org.mapstruct.InheritConfiguration;
 import org.mapstruct.Mapper;
 import org.mapstruct.Mapping;
 import org.mapstruct.Mappings;
-
 @Mapper(componentModel = "spring")
 public interface HistoryMapper {
 
@@ -26,4 +25,5 @@ public interface HistoryMapper {
 
         Iterable<History>toModels(Iterable<HistoryEntity> userEntities);
         Iterable<HistoryEntity>toEntities(Iterable<History> model);
+
 }
