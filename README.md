@@ -4,7 +4,7 @@
 ## 🚩Tabla de Contenido
 
 - [📒 Descripción](#descripcion)
-   - [✴️ Funcionalidades](#funcionalidades)
+   - [🛠️ Funcionalidades](#funcionalidades)
 
 - [📦 Repositorio y Despliegue](#repositorio-y-despliegue)
 
