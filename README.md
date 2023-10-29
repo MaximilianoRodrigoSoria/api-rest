@@ -4,21 +4,21 @@
 ## 🚩Tabla de Contenido
 
 - [📒 Descripción](#descripcion)
-   - [Funcionalidades](#funcionalidades)
+   - [✴️ Funcionalidades](#funcionalidades)
 
 - [📦 Repositorio y Despliegue](#repositorio-y-despliegue)
 
 - [🔗 Links Útiles](#links-utiles)
-   - [Wiremock](#wiremock)
-   - [Swagger](#swagger)
+   - [✴️ Wiremock](#wiremock)
+   - [✴️ Swagger](#swagger)
 
-<a name="descripcion"></a>
+
 ## 📒Descripcion 
 
 
 Esta es una API REST desarrollada en Spring Boot con Java 17, que proporciona las siguientes funcionalidades:
 
-<a name="funcionalidades"></a>
+
 ### 🛠️ Funcionalidades
 
 1. **Suma con Porcentaje**
@@ -46,7 +46,7 @@ Esta es una API REST desarrollada en Spring Boot con Java 17, que proporciona la
 7. **Documentación**
     - Se proporciona un archivo de colección de Postman y una documentación Swagger para probar la API.
 
-<a name="repositorio-y-despliegue"></a>
+
 ## 📦 Repositorio y Despliegue
 
 El código fuente de esta API está disponible en el siguiente repositorio público:
@@ -90,7 +90,7 @@ Recuerda que esta aplicación está diseñada para funcionar en un entorno distr
 <a name="links-utiles"></a>
 ## 🔗 Links utiles
 
-### Wiremock
+### ✴️ Wiremock
 
 WireMock es una biblioteca de simulación de servicios web (stubbing) que se utiliza comúnmente en pruebas unitarias e integración de software. Permite a los desarrolladores simular servicios HTTP/HTTPS, como API REST, para crear entornos de prueba controlados y predecibles
 
@@ -104,7 +104,7 @@ En este caso esta mockeado el serviio de percentage
 
 > { "value": 30 }
 
-### Swagger
+### ✴️ Swagger
 
 
 Swagger es un conjunto de herramientas y especificaciones que se utiliza para diseñar, crear y documentar APIs de manera sencilla y efectiva. Su objetivo principal es facilitar la colaboración entre equipos de desarrollo y documentación al proporcionar una forma estandarizada de describir y exponer las capacidades de una API.
