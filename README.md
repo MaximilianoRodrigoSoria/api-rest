@@ -1,5 +1,7 @@
 ![rating](https://img.shields.io/badge/Java-17-orange?style=flat-square) ![rating](https://img.shields.io/badge/Spring%20Boot-3.1.5-brighred?style=flat-square)
 
+![Docker Compose](/docs/img/spring-challenger.gif)
+
 
 ## 🚩Tabla de Contenido
 
