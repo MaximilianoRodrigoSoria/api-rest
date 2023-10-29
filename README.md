@@ -1,9 +1,25 @@
+![rating](https://img.shields.io/badge/Java-17-orange?style=flat-square) ![rating](https://img.shields.io/badge/Spring%20Boot-3.1.5-brighred?style=flat-square)
 
-# API REST de Spring Boot
+
+## 🚩Tabla de Contenido
+
+- [📒 Descripción](#descripcion)
+   - [Funcionalidades](#funcionalidades)
+
+- [📦 Repositorio y Despliegue](#repositorio-y-despliegue)
+
+- [🔗 Links Útiles](#links-utiles)
+   - [Wiremock](#wiremock)
+   - [Swagger](#swagger)
+
+<a name="descripcion"></a>
+## 📒Descripcion 
+
 
 Esta es una API REST desarrollada en Spring Boot con Java 17, que proporciona las siguientes funcionalidades:
 
-## 🛠️ Funcionalidades
+<a name="funcionalidades"></a>
+### 🛠️ Funcionalidades
 
 1. **Suma con Porcentaje**
     - La API tiene un servicio que recibe dos números, los suma y les aplica un porcentaje adquirido de un servicio externo.
@@ -30,6 +46,7 @@ Esta es una API REST desarrollada en Spring Boot con Java 17, que proporciona la
 7. **Documentación**
     - Se proporciona un archivo de colección de Postman y una documentación Swagger para probar la API.
 
+<a name="repositorio-y-despliegue"></a>
 ## 📦 Repositorio y Despliegue
 
 El código fuente de esta API está disponible en el siguiente repositorio público:
@@ -70,7 +87,7 @@ Recuerda que esta aplicación está diseñada para funcionar en un entorno distr
 ¡Disfruta probando la API y explorando su funcionalidad!
 
 ---
-
+<a name="links-utiles"></a>
 ## 🔗 Links utiles
 
 ### Wiremock
@@ -87,7 +104,7 @@ En este caso esta mockeado el serviio de percentage
 
 > { "value": 30 }
 
-## Swagger
+### Swagger
 
 
 Swagger es un conjunto de herramientas y especificaciones que se utiliza para diseñar, crear y documentar APIs de manera sencilla y efectiva. Su objetivo principal es facilitar la colaboración entre equipos de desarrollo y documentación al proporcionar una forma estandarizada de describir y exponer las capacidades de una API.
