@@ -16,8 +16,10 @@ public class HistoryEntity {
         @GeneratedValue(strategy = GenerationType.IDENTITY)
         private Long id;
         private String endpoint;
-        private String request;
-        private String response;
+        private String requestBody;
+        private String responseBody;
+        private String status;
+        private String method;
         private LocalDateTime timestamp;
         private boolean success;
 

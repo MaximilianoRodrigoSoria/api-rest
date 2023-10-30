@@ -11,10 +11,12 @@ import org.mapstruct.Mappings;
 public interface HistoryMapper {
 
         @Mappings({
-                @Mapping(source = "id", target = "id"),
+
                 @Mapping(source = "endpoint", target = "endpoint"),
-                @Mapping(source = "request", target = "request"),
-                @Mapping(source = "response", target = "response"),
+                @Mapping(source = "responseBody", target = "responseBody"),
+                @Mapping(source = "requestBody", target = "requestBody"),
+                @Mapping(source = "status", target = "status"),
+                @Mapping(source = "method", target = "method"),
                 @Mapping(source = "timestamp", target = "timestamp"),
                 @Mapping(source = "success", target = "success")
                })

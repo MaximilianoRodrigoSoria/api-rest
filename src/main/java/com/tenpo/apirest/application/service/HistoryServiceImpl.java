@@ -45,7 +45,6 @@ public class HistoryServiceImpl implements HistoryService {
         if (history.isEmpty()){
             throw new IdNotFoundException("History");
         }
-        request.setId(history.get().getId());
         repository.save(mapper.toEntity(request));
         return request;
     }
