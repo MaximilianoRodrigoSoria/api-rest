@@ -9,6 +9,7 @@ import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
 import org.springframework.stereotype.Component;
 
+
 @Component
 public class OpenApiConfig
 {
@@ -21,7 +22,9 @@ public class OpenApiConfig
                 .info(new Info()
                         .title("api-rest")
                         .version(appVersion)
-                        .license(new License().name("Apache 2.0").url("http://springdoc.org"))); }
+                        .license(new License().name("Apache 2.0").url("http://springdoc.org")))
+
+                ; }
 
 
 }
