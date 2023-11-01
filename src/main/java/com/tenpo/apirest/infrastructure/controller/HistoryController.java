@@ -49,13 +49,15 @@ public class HistoryController {
     @Operation(summary = "Save a history")
     @PostMapping(consumes = MediaType.APPLICATION_JSON_VALUE, produces = MediaType.APPLICATION_JSON_VALUE)
     public ResponseEntity<History> post(
-            @RequestHeader(value = "EnabledHistory", defaultValue = "ENABLED") EnabledHistory enabledHistory,
+            @RequestHeader(value = "EnabledHistory", defaultValue = "DISABLED") EnabledHistory enabledHistory,
             @RequestBody History request){
         return ResponseEntity.ok(service.created(request));
     }
     @Operation(summary = "Return a history")
     @GetMapping(path = "/{id}")
-    public ResponseEntity<History> get(@PathVariable Integer id){
+    public ResponseEntity<History> get(
+            @RequestHeader(value = "EnabledHistory", defaultValue = "DISABLED") EnabledHistory enabledHistory,
+            @PathVariable Integer id){
         return  ResponseEntity.ok(service.read(id));
     }
 
