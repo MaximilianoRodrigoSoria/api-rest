@@ -1,7 +1,6 @@
 package com.tenpo.apirest.infrastructure.controller;
 
 
-
 import com.tenpo.apirest.application.service.MathOperationsService;
 import com.tenpo.apirest.infrastructure.mapper.EnabledHistory;
 import io.swagger.v3.oas.annotations.tags.Tag;
@@ -14,6 +13,7 @@ import org.springframework.web.bind.annotation.*;
 @Tag(name = "Math operations controller", description = "Math operations controller")
 @AllArgsConstructor
 public class MathOperationsController {
+
 
     private MathOperationsService service;
 

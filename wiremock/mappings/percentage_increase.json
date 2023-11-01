@@ -4,6 +4,9 @@
   },
   "response": {
     "status": 200,
-    "body": "{ \"value\": 30 }"
+    "body": "{ \"value\": 30 }",
+    "headers": {
+      "Content-Type": "application/json"
+    }
   }
 }
