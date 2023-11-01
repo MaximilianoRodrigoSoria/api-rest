@@ -13,8 +13,8 @@ public interface HistoryMapper {
         @Mappings({
 
                 @Mapping(source = "endpoint", target = "endpoint"),
-                @Mapping(source = "responseBody", target = "responseBody"),
-                @Mapping(source = "requestBody", target = "requestBody"),
+                @Mapping(source = "response", target = "response"),
+                @Mapping(source = "request", target = "request"),
                 @Mapping(source = "status", target = "status"),
                 @Mapping(source = "method", target = "method"),
                 @Mapping(source = "timestamp", target = "timestamp"),
