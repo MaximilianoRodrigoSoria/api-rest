@@ -21,7 +21,6 @@ public class HistoryServiceImpl implements HistoryService {
     private HistoryRepository repository;
     private HistoryMapper mapper;
     @Override
-    //@Cacheable(value = CacheConstants.HISTORY_LIST_CACHE_NAME)
     public Page<History> readAll(Integer page, Integer size, SortType sortType) {
         PageRequest pageRequest = null;
         switch (sortType){
@@ -33,20 +32,20 @@ public class HistoryServiceImpl implements HistoryService {
     }
 
     @Override
-    //@Cacheable(value = CacheConstants.HISTORY_CACHE_NAME)
+    @Cacheable(value = CacheConstants.HISTORY_CACHE_NAME)
     public History created(History request) {
         return mapper.toModel(repository.save(mapper.toEntity(request)));
     }
 
     @Override
-    //@Cacheable(value = CacheConstants.HISTORY_CACHE_NAME)
+    @Cacheable(value = CacheConstants.HISTORY_CACHE_NAME)
     public History read(Integer id) {
         var reservertionBD = repository.findById(id).orElseThrow(()-> new IdNotFoundException("History"));
         return mapper.toModel(reservertionBD);
     }
 
     @Override
-    //@CacheEvict(value = {CacheConstants.HISTORY_LIST_CACHE_NAME, CacheConstants.HISTORY_CACHE_NAME}, allEntries = true)
+    @CacheEvict(value = {CacheConstants.HISTORY_CACHE_NAME}, allEntries = true)
     public History update(History request, Integer id) {
         var history = repository.findById(id);
         if (history.isEmpty()){
@@ -57,7 +56,7 @@ public class HistoryServiceImpl implements HistoryService {
     }
 
     @Override
-    //@CacheEvict(value = {CacheConstants.HISTORY_LIST_CACHE_NAME, CacheConstants.HISTORY_CACHE_NAME}, allEntries = true)
+    @CacheEvict(value = {CacheConstants.HISTORY_CACHE_NAME}, allEntries = true)
     public void delete(Integer id) {
         var reservation= repository.findById(id).orElseThrow(()-> new IdNotFoundException("History"));
         repository.delete(reservation);
