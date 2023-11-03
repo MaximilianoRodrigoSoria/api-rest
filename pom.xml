@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>com.tenpo</groupId>
 	<artifactId>api-rest</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>0.0.1</version>
 	<name>api-rest</name>
 	<description>Servicio que calcula un suma e incrementa un porcentaje</description>
 	<properties>
