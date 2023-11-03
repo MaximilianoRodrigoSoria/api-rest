@@ -7,12 +7,26 @@
 
 # 🚩Tabla de Contenido
 
+<details>
+<summary>Tabla de Contenido</summary>
+
 - [📒 Descripción](#descripcion)
-  - [🛠️ Funcionalidades](#funcionalidades)
+    - [🛠️ Funcionalidades](#funcionalidades)
+        - [Suma con Porcentaje](#suma-con-porcentaje)
+        - [Historial de Llamadas](#historial-de-llamadas)
+        - [Límite de RPM](#limite-de-rpm)
+        - [Errores HTTP](#errores-http)
+        - [Pruebas Unitarias](#pruebas-unitarias)
+        - [Docker Container](#docker-container)
+        - [Documentación](#documentacion)
 - [📦 Repositorio y Despliegue](#repositorio-y-despliegue)
 - [🔗 Links Útiles](#links-utiles)
-  - [Wiremock](#wiremock)
-  - [Swagger](#swagger)
+    - [✴️ Wiremock](#wiremock)
+        - [URL](#url-wiremock)
+        - [Response](#response-wiremock)
+    - [✴️ Swagger](#swagger)
+        - [URL](#url-swagger)
+</details>
 
 
 ## 📒Descripcion 
