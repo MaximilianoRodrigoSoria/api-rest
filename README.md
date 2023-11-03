@@ -11,7 +11,7 @@
 <summary>Tabla de Contenido</summary>
 
 - [📒 Descripción](#descripcion)
-    - [🛠️ Funcionalidades](#funcionalidades)
+    - [🛠️ Funcionalidades](#funcionalidades) 
         - [Suma con Porcentaje](#suma-con-porcentaje)
         - [Historial de Llamadas](#historial-de-llamadas)
         - [Límite de RPM](#limite-de-rpm)
@@ -34,7 +34,7 @@
 
 Esta es una API REST desarrollada en Spring Boot con Java 17, que proporciona las siguientes funcionalidades:
 
-
+[//]: # (Funcionalidades)
 ### 🛠️ Funcionalidades
 
 1. **Suma con Porcentaje**
