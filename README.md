@@ -23,32 +23,38 @@
 
 
 Esta es una API REST desarrollada en Spring Boot con Java 17, que proporciona las siguientes funcionalidades:
-
-
+<a name="funcionalidades"></a>
 ### 🛠️ Funcionalidades
 
+<a name="suma-con-porcentaje"></a>
 1. **Suma con Porcentaje**
     - La API tiene un servicio que recibe dos números, los suma y les aplica un porcentaje adquirido de un servicio externo.
     - El servicio externo puede ser un mock y devuelve el porcentaje a sumar.
     - Si el servicio externo falla, se utiliza el último valor retornado. Si no hay valor, se devuelve un error en la API.
 
+<a name="historial-de-llamadas"></a>
 2. **Historial de Llamadas**
     - La API registra un historial de todos los llamados a los endpoints, incluyendo las respuestas en caso de éxito.
     - El historial se almacena en una base de datos PostgreSQL.
     - El guardado del historial no afecta el tiempo de respuesta del servicio principal.
-
+      
+<a name="límite-de-rpm"></a>
 3. **Límite de RPM**
     - La API admite un máximo de 3 solicitudes por minuto (RPM). Si se supera este umbral, se devuelve un error HTTP con un mensaje adecuado.
 
+<a name="errores-http"></a>
 4. **Errores HTTP**
     - La API incluye mensajes y descripciones adecuadas para la serie de errores 4XX.
 
+<a name="pruebas-unitarias"></a>
 5. **Pruebas Unitarias**
     - Se han incluido pruebas unitarias para verificar el funcionamiento de la API.
 
+<a name="docker-container"></a>
 6. **Docker Container**
     - La aplicación se puede desplegar en un contenedor Docker. Tanto la API como la base de datos PostgreSQL se ejecutan en contenedores Docker. Se recomienda el uso de Docker Compose para gestionarlos.
 
+<a name="documentación"></a>
 7. **Documentación**
     - Se proporciona un archivo de colección de Postman y una documentación Swagger para probar la API.
 
