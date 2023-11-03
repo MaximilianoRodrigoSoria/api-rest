@@ -5,16 +5,14 @@
 <!-- <img src="./docs/img/spring-challenger.gif" width="300" height="100"> -->
 
 
-## 🚩Tabla de Contenido
+# 🚩Tabla de Contenido
 
 - [📒 Descripción](#descripcion)
-   - [🛠️ Funcionalidades](#funcionalidades)
-
+  - [🛠️ Funcionalidades](#funcionalidades)
 - [📦 Repositorio y Despliegue](#repositorio-y-despliegue)
-
 - [🔗 Links Útiles](#links-utiles)
-   - [Wiremock](#wiremock)
-   - [Swagger](#swagger)
+  - [Wiremock](#wiremock)
+  - [Swagger](#swagger)
 
 
 ## 📒Descripcion 
