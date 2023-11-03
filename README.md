@@ -27,7 +27,17 @@
     - [✴️ Swagger](#swagger)
         - [URL](#url-swagger)
 </details>
-
+- [Descripción](#descripcion)
+- [Funcionalidades](#funcionalidades)
+    - [Suma con Porcentaje](#suma-con-porcentaje)
+    - [Historial de Llamadas](#historial-de-llamadas)
+    - [Límite de RPM](#límite-de-rpm)
+    - [Errores HTTP](#errores-http)
+    - [Pruebas Unitarias](#pruebas-unitarias)
+    - [Docker Container](#docker-container)
+    - [Documentación](#documentación)
+- [Repositorio y Despliegue](#repositorio-y-despliegue)
+- [Links útiles](#links-utiles)
 
 ## 📒Descripcion 
 
