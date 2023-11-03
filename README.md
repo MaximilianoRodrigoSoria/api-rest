@@ -62,7 +62,7 @@ Esta es una API REST desarrollada en Spring Boot con Java 17, que proporciona la
 7. **Documentación**
     - Se proporciona un archivo de colección de Postman y una documentación Swagger para probar la API.
 
-
+[//]: # (Repositorio y Despliegue)
 ## 📦 Repositorio y Despliegue
 
 El código fuente de esta API está disponible en el siguiente repositorio público:
