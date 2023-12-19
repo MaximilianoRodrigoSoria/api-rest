@@ -1,8 +1,11 @@
-![rating](https://img.shields.io/badge/Java-17-orange?style=flat-square) ![rating](https://img.shields.io/badge/Spring%20Boot-3.1.5-brighred?style=flat-square)
+
 
 ![Docker Compose](/docs/img/banner.gif)
 
-<!-- <img src="./docs/img/spring-challenger.gif" width="300" height="100"> -->
+![rating](https://img.shields.io/badge/Java-17-orange?style=flat-square) 
+![rating](https://img.shields.io/badge/Spring%20Boot-3.1.5-brighred?style=flat-square)
+
+
 
 
 # 🚩Tabla de Contenido
@@ -102,7 +105,7 @@ Recuerda que esta aplicación está diseñada para funcionar en un entorno distr
 <a name="links-utiles"></a>
 ## 🔗 Links utiles
 
-### ✴️ Wiremock
+### ⭐ Wiremock
 
 WireMock es una biblioteca de simulación de servicios web (stubbing) que se utiliza comúnmente en pruebas unitarias e integración de software. Permite a los desarrolladores simular servicios HTTP/HTTPS, como API REST, para crear entornos de prueba controlados y predecibles
 
@@ -116,7 +119,7 @@ En este caso esta mockeado el serviio de percentage
 
 > { "value": 30 }
 
-### ✴️ Swagger
+### ⭐Swagger
 
 
 Swagger es un conjunto de herramientas y especificaciones que se utiliza para diseñar, crear y documentar APIs de manera sencilla y efectiva. Su objetivo principal es facilitar la colaboración entre equipos de desarrollo y documentación al proporcionar una forma estandarizada de describir y exponer las capacidades de una API.
@@ -124,3 +127,16 @@ Swagger es un conjunto de herramientas y especificaciones que se utiliza para di
 #### URL
 
 > http://localhost:8080/api-rest/swagger-ui.html
+
+### ⭐ Autor
+<br>
+
+> ‍💻 **Nombre:** Maximiliano Rodrigo Soria
+> 
+> 📧 **Email:** MaximilianoRodrigoSoria@gmail.com
+>
+> 🏠 **De:** Florencio Varela, Alpino
+> 
+> 💼 **Linkedin:** [SoriaMaximilianoRodrigo](https://www.linkedin.com/in/soriamaximilianorodrigo/)
+> 
+> 💬 **Chatear:**  [Inicia un chat](https://wa.me/1127043256) 
